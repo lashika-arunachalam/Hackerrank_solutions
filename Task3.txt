@@ -1,0 +1,68 @@
+1) Polar Coordinates
+
+import cmath
+print(*cmath.polar(complex(input())), sep='\n')
+
+2)Find Angle MBC
+
+import math
+
+a = int(input())
+b = int(input())
+
+print(f'{math.degrees(math.atan(a / b)):1.0f}\xb0')
+
+3)Triangle Quest 2
+
+for i in range(1,int(input())+1):
+     print((10**i//9)**2)
+
+4)Mod Divmod
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+num1=int(input())
+num2=int(input())
+print(f'{num1//num2}\n{num1%num2}\n{divmod(num1,num2)}\n')
+
+
+5)Power Mod Power
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+a=int(input())
+b=int(input())
+m=int(input())
+
+print(f'{pow(a,b)}\n{pow(a,b,m)}')
+
+6) Integers Come in All Sizes
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+
+print(f'{pow(a,b)+pow(c,d)}')
+
+7)Triange Quest
+
+for i in range(1, int(input())): 
+    print((10**i // 9) * i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
